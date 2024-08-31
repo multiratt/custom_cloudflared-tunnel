@@ -1,9 +1,9 @@
 #!/bin/ash
 
 # Function to run a command, suppressing stdout but displaying stderr
-run_command() {
-  "$@" > /dev/null 2>&1
-}
+#run_command() {
+#  "$@" > /dev/null 2>&1
+#}
 
 # Function to create a tar archive as a string
 create_tar_string() {
