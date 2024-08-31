@@ -1,4 +1,4 @@
-#!/bin/ash
+#!/bin/ash -x
 
 # Function to run a command, suppressing stdout but displaying stderr
 run_command() {
