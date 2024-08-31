@@ -179,7 +179,7 @@ else
 
   # Print the command for future execution
   echo "To start this Tunnel next time (or to execute after bootup), run:"
-  echo "wget -qO- https://raw.githubusercontent.com/multiratt/custom_cloudflared-tunnel/main/pks_script.sh | ash -s -- --import=\"$tar_string\""
+  echo "wget -qO- https://raw.githubusercontent.com/multiratt/custom_cloudflared-tunnel/main/pks.sh | ash -s -- --import=\"$tar_string\""
   echo ""
 fi
 
